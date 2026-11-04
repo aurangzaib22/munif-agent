@@ -1,0 +1,572 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "auth": {
+    "signup": "Sign Up",
+    "login": "Login"
+  },
+  "authPages": {
+    "brandAlt": "Mr. Bot",
+    "signin": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "submit": "Sign In",
+      "submitting": "Signing in...",
+      "forgotPassword": "Forgot password",
+      "noAccount": "Do not have an account?",
+      "createAccountCta": "Sign up"
+    },
+    "signup": {
+      "title": "Create Account",
+      "subtitle": "Sign up to get started",
+      "submit": "Sign Up",
+      "submitting": "Creating Account...",
+      "haveAccount": "Already have an account?",
+      "signInCta": "Sign in"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email and we will send your password reset link",
+      "submit": "Send Password",
+      "submitting": "Sending...",
+      "backToSignIn": "Back to Sign In",
+      "noAccount": "Do not have an account?",
+      "createAccountCta": "Sign up"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "subtitle": "Set your new password",
+      "newPasswordLabel": "New Password",
+      "confirmPasswordLabel": "Confirm New Password",
+      "placeholders": {
+        "new": "Enter new password",
+        "confirm": "Re-enter new password"
+      },
+      "validation": {
+        "newRequired": "New password is required",
+        "newMin": "Password must be at least 6 characters",
+        "confirmRequired": "Please confirm your password",
+        "mismatch": "Passwords do not match"
+      },
+      "submit": "Reset Password",
+      "submitting": "Resetting...",
+      "backToSignIn": "Back to Sign In"
+    },
+    "fields": {
+      "username": "Username",
+      "email": "Email",
+      "password": "Password"
+    },
+    "placeholders": {
+      "username": "Enter your username",
+      "email": "Enter your email",
+      "password": "Enter your password"
+    },
+    "validation": {
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters",
+      "usernameRequired": "Username is required",
+      "usernameMin": "Username must be at least 3 characters",
+      "usernamePattern": "Username can only contain letters, numbers and underscores",
+      "invalidEmail": "Invalid email address",
+      "passwordPattern": "Password must contain uppercase, lowercase and number"
+    },
+    "toast": {
+      "signInSuccess": "Sign-in successful!",
+      "fallbackError": "Oops an error occurred",
+      "signUpSuccess": "Sign-up successful! Please sign in",
+      "resetLinkSent": "A password reset link has been sent to your email!",
+      "resetLinkFailed": "Failed to send reset link",
+      "invalidResetToken": "Invalid or missing token",
+      "passwordResetSuccess": "Password reset successfully! Please sign in.",
+      "passwordResetFailed": "Failed to reset password"
+    }
+  },
+  "profile": {
+    "fallbackName": "User",
+    "profileInfo": "Profile Information",
+    "profileInfoDesc": "Your personal information and contact details",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "subscriptionTitle": "Active Subscription Plan",
+    "subscriptionDesc": "Your current plan details",
+    "planName": "Professional Plan",
+    "planPrice": "$299/month",
+    "statusActive": "Active"
+  },
+  "userAgent": {
+    "titleEdit": "Edit Agent Details",
+    "titleView": "Agent Profile",
+    "selectAgent": "Select Agent to Edit",
+    "phoneReadOnly": "Phone Number (read-only)",
+    "editAgent": "Edit Agent",
+    "updateAgent": "Update Agent",
+    "updating": "Updating...",
+    "cancel": "Cancel",
+    "loadingOption": "---",
+    "toast": {
+      "noAgents": "No agents found.",
+      "loadFailed": "Failed to load agents data",
+      "noneSelected": "No agent selected to update.",
+      "tokenMissing": "User token missing!",
+      "updateSuccess": "Agent updated successfully!",
+      "updateFailed": "Update failed!",
+      "updateError": "Error updating agent!"
+    }
+  },
+  "recentActions": {
+    "title": "Recent Actions",
+    "viewAll": "View All",
+    "empty": "No recent actions found."
+  },
+  "agentControl": {
+    "title": "Main Control",
+    "subtitle": "Toggle your AI agent on or off",
+    "agentOn": "AI Agent is ON",
+    "agentOff": "AI Agent is OFF",
+    "statusHandling": "Currently handling inbound calls",
+    "statusPaused": "Agent is currently paused",
+    "badgeActive": "Active",
+    "badgeInactive": "Inactive"
+  },
+  "hero": {
+    "title": "Maximum efficiency for your company"
+  },
+  "about": {
+    "title": "The intelligent phone assistant",
+    "subtitle": "Are you familiar with the stressful daily routine of telephone calls?",
+    "desc": "Ringing phones, missed calls, stressed employees – it doesn't have to be this way. MrBot is your smart phone assistant that automatically answers calls, forwards messages, and coordinates appointments – friendly, reliable, and available 24/7."
+  },
+  "works": {
+    "heading": "How MrBot Works",
+    "items": [
+      {
+        "title": "Customer Calls",
+        "description": "MrBot answers every call politely – even after work hours or when your team is busy."
+      },
+      {
+        "title": "Intelligent Conversation Management",
+        "description": "The AI assistant understands concerns, answers frequently asked questions, and gathers all important information – all in compliance with GDPR."
+      },
+      {
+        "title": "Forwarding & Notification",
+        "description": "Important calls or messages are automatically forwarded to you or your team – via email, SMS, or chat. Appointments are entered and managed in your existing CRM system."
+      },
+      {
+        "title": "External Service Providers",
+        "description": "External service providers (hosting, AI, telephony) are used under data processing agreements pursuant to Art. 28 GDPR. Any data transfer to third countries is carried out only with appropriate safeguards under Art. 44 et seq. GDPR."
+      }
+    ]
+  },
+
+  "legal": {
+    "title": "Legal Requirements",
+    "impressum": {
+      "button": "Imprint",
+      "title": "Imprint",
+      "desc": "Any commercial website must provide a legally required Impressum. It must be easily visible, immediately accessible, and permanently available.",
+      "labels": {
+        "owner": "Owner:",
+        "address": "Address:",
+        "contact": "Contact:",
+        "email": "Email",
+        "phone": "Phone",
+        "tax_value": "VAT:",
+        "responsible": "Responsible for content:",
+        "Business_purpose": "Business purpose:"
+      },
+      "data": {
+        "owner": "Munif Rahman (sole proprietor)",
+        "address": "Geschwister-Scholl-Str. 10, 86156 Augsburg, Germany",
+        "email": "info@mrbot-ki.de",
+        "phone": "+49 162 6352418",
+        "tax_value": "VAT exempt according to §19 UStG (German Small Business Regulation)",
+        "responsible": "Munif Rahman",
+        "Business_purpose": "AI-powered chat and voice bot services."
+      }
+    },
+    "privacy": {
+      "title": "GDPR Privacy Policy",
+      "desc": "A Privacy Policy is required whenever a website stores logs, uses cookies, analytics, or collects emails. It must be clearly visible and accessible at all times."
+    },
+    "notEnough": {
+      "title": "What Is Not Enough",
+      "desc": "A copyright notice alone does not fulfill Impressum or Privacy Policy obligations."
+    },
+    "risks": {
+      "title": "Risks of Missing Compliance",
+      "desc": "Missing legal requirements may lead to legal warnings, fines, and loss of credibility."
+    },
+    "recommendation": {
+      "title": "Practical Recommendation",
+      "desc": "Include Impressum, Privacy Policy, optional Terms & Conditions, contact link, and copyright in the footer."
+    },
+    "privacyPolicy": {
+      "button": "Privacy Policy",
+      "title": "Data Protection – AI & Voice Bot (MrBot)",
+      "desc": "MrBot is an AI-powered chat and voice bot used for general inquiries and initial contact.",
+      "sections": {
+        "processedTitle": "Processed data:",
+        "processedContent": " Name, email address, phone number, conversation content, technical metadata (e.g. IP address).",
+
+        "purposeTitle": "Purpose:",
+        "purposeContent": "Responding to inquiries, contract initiation, service improvement.",
+
+        "legalTitle": "Legal basis:",
+        "legalContent": " Art. 6(1)(a), (b), (f) GDPR.",
+
+        "sensitiveTitle": "No sensitive data:",
+        "sensitiveContent": "Please do not provide health or sensitive personal data.",
+
+        "retentionTitle": "Retention",
+        "retentionContent": "Data is stored only as long as necessary or legally required."
+
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in touch with us",
+    "description": "Are you interested in collaborating? Please fill out the form and we will get back to you shortly. We look forward to hearing from you."
+  },
+  "form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "Message...",
+    "submit": "Send",
+    "sending": "sending",
+    "toast": {
+      "messageSent": "Message sent successfully!",
+      "genericError": "Something went wrong!"
+    },
+    "validation": {
+      "emailRequired": "Email is required",
+      "invalidEmail": "Invalid email format"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved by MrBot AI"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQ) about MrBot",
+    "subtitle": "MrBot is a 24/7 intelligent phone assistant that handles calls efficiently, ensures GDPR compliance, and requires no setup.",
+    "q1": "What is MrBot?",
+    "a1": "MrBot is an intelligent phone assistant that automatically answers incoming calls, responds politely, and handles common requests. It can schedule appointments, provide information, or take messages — just like a real human assistant, but available 24/7.",
+    "q2": "Who is MrBot designed for?",
+    "a2": "MrBot is built for medical practices, small businesses, and service providers who receive many routine calls every day. It helps reduce staff workload, improves availability, and ensures that no call is ever missed, even outside office hours.",
+    "q3": "Is MrBot GDPR compliant?",
+    "a3": "Yes. Data protection is a top priority at MrBot. All data is processed exclusively on servers located within the EU, and no call recordings are stored permanently unless you explicitly agree. MrBot fully complies with GDPR regulations, and a Data Processing Agreement (DPA) can be provided upon request.",
+    "q4": "Do I need to install or program anything?",
+    "a4": "No. MrBot is a no-code solution that’s fully set up for you. You don’t need any technical experience — we handle everything, from connecting your phone system to integrating your calendar."
+  },
+  "appNav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "addAgent": "Add Agent",
+    "users": "Users",
+    "callLogs": "Call Logs",
+    "onboarding": "Onboarding",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "de": "German"
+  },
+  "addAgent": {
+    "title": "Add New Agent",
+    "subtitle": "Create and configure your AI agent",
+    "fields": {
+      "agentImage": "Agent Image",
+      "selectUser": "Select User (Linked Account)",
+      "agentName": "Agent Name",
+      "phoneNumber": "Phone Number",
+      "businessName": "Business Name",
+      "businessEmail": "Business Email",
+      "industry": "Industry",
+      "allowedMinutes": "Allowed Minutes",
+      "businessHoursStart": "Business Hours Start",
+      "businessHoursEnd": "Business Hours End",
+      "language": "Language",
+      "voiceType": "Select Voice Type",
+      "systemPrompt": "System Prompt"
+    },
+    "placeholders": {
+      "uploadImage": "Upload Image +",
+      "selectUser": "Select a user",
+      "agentName": "Enter agent name",
+      "phoneNumber": "+1 (555) 000-0000",
+      "businessName": "Enter business name",
+      "ownerEmail": "Enter owner email",
+      "industry": "e.g., Healthcare, Finance, Retail",
+      "allowedMinutes": "e.g. 30",
+      "voiceType": "Click to choose a voice",
+      "systemPrompt": "Define the agent's behavior, personality, and guidelines..."
+    },
+    "loadingUsers": "Loading users...",
+    "selectLanguageHint": "Select language",
+    "languageOptions": {
+      "de": "German",
+      "en": "English",
+      "fr": "French",
+      "it": "Italian",
+      "es": "Spanish",
+      "nl": "Dutch"
+    },
+    "validation": {
+      "agentImageRequired": "Agent image is required",
+      "selectUser": "Please select a user",
+      "agentNameRequired": "Agent name is required",
+      "phoneRequired": "Phone number is required",
+      "invalidPhone": "Invalid phone number",
+      "minMinutes": "Minimum 1 minute",
+      "startTimeRequired": "Start time is required",
+      "endTimeRequired": "End time is required",
+      "systemPromptRequired": "System prompt is required"
+    },
+    "submit": "Create Agent",
+    "submitting": "Creating Agent...",
+    "info": "Configure your AI agent with specific instructions and characteristics. The system prompt defines how the agent will interact with users.",
+    "voiceModal": {
+      "title": "Select Voice Sample",
+      "close": "Close"
+    },
+    "alt": {
+      "preview": "Preview"
+    },
+    "toast": {
+      "tokenMissing": "User token missing!",
+      "agentCreated": "Agent created successfully!",
+      "createFailed": "Failed to create agent!",
+      "loadUsersFailed": "Failed to load users list",
+      "selectLanguageFirst": "Please select a language first!",
+      "authTokenMissing": "Token missing!",
+      "voiceSamplesFailed": "Error fetching voice samples"
+    }
+  },
+  "editAgent": {
+    "title": "Edit Agent",
+    "uploadShort": "Upload +",
+    "selectLanguage": "Select Language",
+    "voicePlaceholder": "Select a voice",
+    "saveChanges": "Save Changes",
+    "saving": "Updating...",
+    "voiceModal": {
+      "title": "Select Voice",
+      "noVoices": "No voices available"
+    },
+    "toast": {
+      "updated": "Agent updated successfully",
+      "updateFailed": "Failed to update agent"
+    }
+  },
+  "agentDetails": {
+    "loading": "Loading Agent Details...",
+    "notFound": "Agent not found.",
+    "titlePrefix": "Agent Details —",
+    "alt": {
+      "agentImage": "Agent image"
+    },
+    "agentInfo": "Agent Info",
+    "labels": {
+      "name": "Name:",
+      "phone": "Phone:",
+      "language": "Language:",
+      "voiceType": "Voice Type:",
+      "industry": "Industry:",
+      "owner": "Owner:",
+      "allowedMinutes": "Allowed Minutes:",
+      "ownerEmail": "Owner Email:",
+      "businessHoursStart": "Business Hours (Start):",
+      "businessHoursEnd": "Business Hours (End):"
+    },
+    "systemPrompt": "System Prompt:",
+    "stats": {
+      "totalCalls": "Total Calls",
+      "completed": "Completed",
+      "unanswered": "Unanswered",
+      "avgDuration": "Avg Duration",
+      "totalDuration": "Total Duration",
+      "firstCall": "First Call:",
+      "lastCall": "Last Call:",
+      "allowedMinutesCard": "Allowed Minutes",
+      "percentageUsed": "Percentage Used:",
+      "usedMins": "Used Mins:",
+      "usedMinutes": "Used Minutes"
+    },
+    "minutesShort": "{{count}} min",
+    "callHistory": "Call History",
+    "table": {
+      "callerNumber": "Caller Number",
+      "date": "Date",
+      "endedAt": "Ended At",
+      "transcript": "Transcript",
+      "recording": "Recording"
+    },
+    "viewTranscript": "View Transcript",
+    "play": "Play",
+    "noCallHistory": "No call history found.",
+    "transcriptModalTitle": "Transcript",
+    "recordingModalTitle": "Recording",
+    "close": "Close",
+    "transcriptRoles": {
+      "agent": "Agent",
+      "user": "User"
+    },
+    "toast": {
+      "minutesReset": "Agent minutes reset successfully!",
+      "minutesResetFailed": "Failed to reset minutes."
+    }
+  },
+  "common": {
+    "prev": "Prev",
+    "previous": "Previous",
+    "next": "Next",
+    "na": "N/A",
+    "pageOf": "Page {{page}} of {{total}}"
+  },
+  "dashboardAdmin": {
+    "totalCallsReceived": "Total Calls Received",
+    "totalAgents": "Total Agents",
+    "searchOwner": "Search by owner name...",
+    "ownerName": "owner name",
+    "noBusinessOwner": "No Business Owner Found",
+    "noAgentsFound": "No agents found",
+    "agentDefaultPrompt": "This agent is highly experienced and dedicated to providing the best service possible.",
+    "seeMore": "See More",
+    "toast": {
+      "agentDeleted": "Agent deleted successfully",
+      "agentDeleteFailed": "Failed to delete agent"
+    }
+  },
+  "dashboardUser": {
+    "todayActivity": "Today's Activity",
+    "totalCalls": "Total Calls",
+    "missedCalls": "Missed",
+    "planUsage": "Plan Usage",
+    "used": "Used",
+    "loadingUsageDetails": "Loading usage details...",
+    "minutesUsed": "{{used}} / {{total}} Minutes",
+    "resetsInDays": "Resets in {{days}} days",
+    "connectCalendar": "Connect Calendar",
+    "googleCalendar": "Google Calendar",
+    "outlookCalendar": "Outlook Calendar",
+    "connecting": "Connecting...",
+    "searchAgentName": "Search by agent name...",
+    "toast": {
+      "missingAuthToken": "Missing authentication token",
+      "authorizationUrlNotFound": "Authorization URL not found",
+      "somethingWentWrong": "Something went wrong",
+      "userDataNotFound": "User data not found",
+      "invalidSessionData": "Invalid user data in session",
+      "userIdNotFound": "User ID not found"
+    }
+  },
+  "users": {
+    "title": "Users",
+    "onboard": "Onboard",
+    "searchByUsername": "Search by username...",
+    "loadingUsers": "Loading users...",
+    "noUsersFound": "No users found.",
+    "assigned": "Assigned",
+    "notAssigned": "Not Assigned",
+    "showingUsers": "Showing {{count}} users",
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "agentStatus": "Agent Status",
+      "agentName": "Agent Name"
+    },
+    "onboardModal": {
+      "title": "Onboard New User",
+      "username": "Username",
+      "usernamePlaceholder": "Enter username",
+      "email": "Email Address",
+      "emailPlaceholder": "user@example.com",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "userCreated": "User created successfully!",
+      "userCreateFailed": "Failed to create user"
+    }
+  },
+  "callLogs": {
+    "title": "Call Logs & History",
+    "columns": {
+      "callerDetail": "Caller Detail",
+      "agentName": "Agent Name",
+      "status": "Status",
+      "dateTime": "Date & Time",
+      "duration": "Duration",
+      "action": "Action"
+    },
+    "noLogs": "No logs found",
+    "view": "View",
+    "invalidDate": "Invalid date",
+    "showingRange": "Showing {{from}}–{{to}} of {{total}}",
+    "showingNone": "Showing 0 of {{total}}",
+    "durationFormat": "{{minutes}}m {{seconds}}s"
+  },
+  "onboarding": {
+    "title": "Tell us about your business",
+    "fields": {
+      "agentName": "Agent Name",
+      "businessName": "Business Name",
+      "businessEmail": "Business Email",
+      "phoneNumber": "Phone Number",
+      "industry": "Industry",
+      "language": "Language"
+    },
+    "placeholders": {
+      "agentName": "e.g., Sarah (Customer Support AI)",
+      "businessName": "e.g., Acme Corporation",
+      "businessEmail": "contact@acme.com",
+      "phoneNumber": "+1 234 567 890",
+      "industry": "e.g., Healthcare"
+    },
+    "hints": {
+      "agentName": "What should your AI agent be called?"
+    },
+    "selectLanguage": "Select Language",
+    "languageOptionEnglish": "English",
+    "languageOptionGerman": "German",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "toast": {
+      "success": "Details submitted successfully!",
+      "error": "Failed to submit details. Please try again."
+    }
+  },
+  "callModal": {
+    "title": "Call Details",
+    "subtitle": "Comprehensive information about this call",
+    "callerInformation": "Caller Information",
+    "labelCallerId": "Caller ID",
+    "labelPhoneNumber": "Phone Number",
+    "labelDate": "Date",
+    "labelTimeDuration": "Time & Duration",
+    "labelCallId": "Call ID",
+    "tabTranscript": "Transcript",
+    "tabVoiceRecording": "Voice Recording",
+    "tabAppointment": "Appointment",
+    "callTranscript": "Call Transcript",
+    "roleAi": "AI",
+    "roleCaller": "Caller",
+    "noTranscript": "No transcript available.",
+    "voiceRecording": "Voice Recording",
+    "audioNotSupported": "Your browser does not support the audio element.",
+    "noRecording": "No recording available for this call.",
+    "formatLabel": "Format:",
+    "download": "Download",
+    "recordingStarted": "Recording Started",
+    "appointmentDetails": "Appointment Details",
+    "callSummary": "Call Summary",
+    "noAppointmentDetails": "No appointment details or summary available."
+  }
+}
